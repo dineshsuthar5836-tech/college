@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Darshan Mahavidhyalay – Excellence in Education</title>
+  <meta name="description" content="Darshan Mahavidhyalay – A premier institution offering BA and BSc programs with world-class facilities and 28+ years of academic excellence in Rajasthan, India." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <div class="logo-emblem">
+        <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="25" cy="25" r="23" stroke="#C9A84C" stroke-width="1.5"/>
+          <path d="M25 8L28 18H38L30 24L33 34L25 28L17 34L20 24L12 18H22L25 8Z" fill="#C9A84C" opacity="0.85"/>
+          <circle cx="25" cy="25" r="4" fill="#C9A84C"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-main">Darshan</span>
+        <span class="logo-sub">Mahavidhyalay</span>
+      </div>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#courses">Courses</a>
+      <a href="#faculty">Leadership</a>
+      <a href="#staff">Faculty</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#admissions">Admissions</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="nav-apply-btn" onclick="document.getElementById('admissions').scrollIntoView({behavior:'smooth'})">Apply Now</button>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80" alt="Students at campus" class="hero-img" />
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal">Established 1995 &middot; NAAC Accredited &middot; UGC Recognised</p>
+    <h1 class="hero-title reveal">
+      Shaping Future Leaders<br />
+      <em>Through Excellence</em><br />
+      in Education
+    </h1>
+    <p class="hero-sub reveal">Empowering students with knowledge, innovation, and timeless values to rise above and succeed in an ever-changing world.</p>
+    <div class="hero-ctas reveal">
+      <a href="#admissions" class="btn-primary">Apply Now <i class="fas fa-arrow-right"></i></a>
+      <a href="#courses" class="btn-outline">Explore Courses</a>
+    </div>
+    <div class="hero-badges reveal">
+      <div class="hero-badge-item"><i class="fas fa-award"></i> NAAC Accredited</div>
+      <div class="hero-badge-item"><i class="fas fa-university"></i> UGC Recognised</div>
+      <div class="hero-badge-item"><i class="fas fa-shield-alt"></i> Govt. Affiliated</div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     WHY CHOOSE US
+══════════════════════════════════════════ -->
+<section class="why-us" id="why">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Why Choose Us</span>
+      <h2 class="section-title">Built for Tomorrow's <em>Leaders</em></h2>
+      <p class="section-desc">We combine academic rigour with holistic values — creating graduates who are confident, capable, and career-ready.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+        <h3>Expert Faculty</h3>
+        <p>Learn from highly qualified professors, researchers, and seasoned professionals dedicated to nurturing your potential.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fas fa-desktop"></i></div>
+        <h3>Smart Classrooms</h3>
+        <p>Technology-integrated classrooms with interactive e-boards, multimedia systems, and a rich e-learning ecosystem.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fas fa-book-open"></i></div>
+        <h3>Research Library</h3>
+        <p>Access thousands of books, peer-reviewed journals, and global databases through our comprehensive research center.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fas fa-briefcase"></i></div>
+        <h3>100% Career Support</h3>
+        <p>A dedicated placement cell with mentorship, mock interviews, resume workshops, and industry connections.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fas fa-users"></i></div>
+        <h3>Vibrant Campus Life</h3>
+        <p>Clubs, cultural festivals, sports events, and student bodies that make every year an unforgettable journey.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fas fa-leaf"></i></div>
+        <h3>Holistic Development</h3>
+        <p>NSS, NCC, yoga, and personality development programs to shape a well-rounded, confident individual.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     STATS BAND
+══════════════════════════════════════════ -->
+<section class="stats-band">
+  <div class="stats-inner">
+    <div class="stat-item reveal">
+      <span class="stat-num" data-target="10000">0</span><span class="stat-plus">+</span>
+      <span class="stat-label">Students Enrolled</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal">
+      <span class="stat-num" data-target="80">0</span><span class="stat-plus">+</span>
+      <span class="stat-label">Expert Faculty</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal">
+      <span class="stat-num" data-target="95">0</span><span class="stat-plus">%</span>
+      <span class="stat-label">Success Rate</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal">
+      <span class="stat-num" data-target="28">0</span><span class="stat-plus">+</span>
+      <span class="stat-label">Years of Excellence</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal">
+      <span class="stat-num" data-target="5000">0</span><span class="stat-plus">+</span>
+      <span class="stat-label">Alumni Network</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════ -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual reveal">
+      <div class="about-img-wrap">
+        <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80" alt="College campus" />
+        <div class="about-badge">
+          <span class="badge-yr">Est.</span>
+          <span class="badge-num">2018</span>
+        </div>
+      </div>
+      <div class="about-img-small">
+        <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=400&q=80" alt="Students" />
+      </div>
+    </div>
+    <div class="about-content reveal">
+      <span class="section-tag">About Us</span>
+      <h2 class="section-title">A Legacy of <em>Academic Excellence</em></h2>
+      <p class="about-lead">DARSHAN MAHAVIDHYALAY stands as one of Barmer's most respected institutions, committed to academic excellence, innovation, and holistic student development.</p>
+      <p class="about-body">Founded in 2018, the college has grown from a modest institution into a vibrant intellectual hub that blends traditional Indian values with contemporary education. Our engaged faculty, research culture, and community-driven programs make Darshan Mahavidhyalay a place where every student can discover their true calling and flourish.</p>
+      <div class="about-pillars">
+        <div class="pillar"><i class="fas fa-check-circle"></i> NAAC Accredited Institution</div>
+        <div class="pillar"><i class="fas fa-check-circle"></i> UGC Recognised Programs</div>
+        <div class="pillar"><i class="fas fa-check-circle"></i> State University Affiliated</div>
+        <div class="pillar"><i class="fas fa-check-circle"></i> Minority Status College</div>
+        <div class="pillar"><i class="fas fa-check-circle"></i> NSS &amp; NCC Units Active</div>
+        <div class="pillar"><i class="fas fa-check-circle"></i> Anti-Ragging Policy Enforced</div>
+      </div>
+      <a href="#admissions" class="btn-primary">Begin Your Journey <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     COURSES
+══════════════════════════════════════════ -->
+<section class="courses" id="courses">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Academic Programs</span>
+      <h2 class="section-title">Courses <em>Offered</em></h2>
+      <p class="section-desc">Rigorous, career-oriented programs designed to develop critical thinkers, skilled communicators, and future innovators.</p>
+    </div>
+    <div class="courses-grid">
+
+      <!-- BA Card -->
+      <div class="course-card reveal">
+        <div class="course-img">
+          <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=700&q=80" alt="Bachelor of Arts" />
+          <div class="course-overlay">
+            <span class="course-badge">3 Year Program</span>
+          </div>
+        </div>
+        <div class="course-body">
+          <div class="course-icon"><i class="fas fa-landmark"></i></div>
+          <h3>Bachelor of Arts <span>(BA)</span></h3>
+          <p>A comprehensive humanities program fostering critical thinking, analytical writing, and deep understanding of society, culture, and governance.</p>
+          <div class="subjects-row">
+            <span>History</span>
+            <span>Political Science</span>
+            <span>Sociology</span>
+            <span>English literature</span>
+            <span>Hindi literature</span>
+            <span>Geography</span>
+          </div>
+          <div class="course-careers">
+            <strong><i class="fas fa-briefcase"></i> Career Paths:</strong>
+            <span>Civil Services</span><span>Journalism</span><span>Education</span><span>Law</span>
+          </div>
+          <a href="#admissions" class="course-link">Apply for BA <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- BSc Card -->
+      <div class="course-card reveal">
+        <div class="course-img">
+          <img src="https://images.unsplash.com/photo-1532094349884-543559b7d4d4?w=700&q=80" alt="Bachelor of Science" />
+          <div class="course-overlay">
+            <span class="course-badge">3 Year Program</span>
+          </div>
+        </div>
+        <div class="course-body">
+          <div class="course-icon"><i class="fas fa-flask"></i></div>
+          <h3>Bachelor of Science <span>(BSc)</span></h3>
+          <p>A rigorous science program with hands-on laboratory experience, research projects, and industry exposure to nurture the next generation of scientists.</p>
+          <div class="subjects-row">
+            <span>Physics</span>
+            <span>Chemistry</span>
+            <span>Mathematics</span>
+            <span>Biology</span>
+            <span>Computer Science</span>
+          </div>
+          <div class="course-careers">
+            <strong><i class="fas fa-briefcase"></i> Career Paths:</strong>
+            <span>Research</span><span>Medicine</span><span>Engineering</span><span>Data Science</span>
+          </div>
+          <a href="#admissions" class="course-link">Apply for BSc <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     DIRECTOR & PRINCIPAL MESSAGES
+══════════════════════════════════════════ -->
+<section class="faculty" id="faculty">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">From the Leadership</span>
+      <h2 class="section-title">Director's &amp; Principal's <em>Message</em></h2>
+      <p class="section-desc">Words of wisdom from the visionaries who shape the future of Darshan Mahavidhyalay.</p>
+    </div>
+    <div class="faculty-grid">
+      <!-- Director -->
+      <div class="faculty-card reveal">
+        <div class="faculty-img">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Director Dashrath Soni" />
+        </div>
+        <div class="faculty-content">
+          <div class="quote-mark">"</div>
+          <p class="faculty-quote">At DARSHAN MAHAVIDHYALAY, we believe education transcends degrees — it builds character, sharpens vision, and ignites purpose. Our mission is to empower every student to become not just a professional, but an enlightened leader and a responsible citizen of India.</p>
+          <div class="faculty-info">
+            <h4>Mr Dashrath Soni</h4>
+            <span>Director, Darshan Mahavidhyalay</span>
+            <p class="faculty-qual"><i class="fas fa-graduation-cap"></i> Ph.D. in Education Management &nbsp;|&nbsp; 25+ Years Experience</p>
+          </div>
+        </div>
+      </div>
+      <!-- Principal -->
+      <div class="faculty-card reveal">
+        <div class="faculty-img">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Principal Pradeep Rathore" />
+        </div>
+        <div class="faculty-content">
+          <div class="quote-mark">"</div>
+          <p class="faculty-quote">Our institution is a sanctuary of learning where academic rigour meets personal growth. We foster a dynamic environment that celebrates intellectual curiosity, disciplined inquiry, and the values that sustain great careers and even greater lives.</p>
+          <div class="faculty-info">
+            <h4>Mr Pradeep Rathore</h4>
+            <span>Principal, Darshan Mahavidhyalay</span>
+            <p class="faculty-qual"><i class="fas fa-graduation-cap"></i> M.A., M.Phil. &nbsp;|&nbsp; 20+ Years in Higher Education</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     STAFF SECTION
+══════════════════════════════════════════ -->
+<section class="staff-section" id="staff">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Our Team</span>
+      <h2 class="section-title">Meet Our <em>Faculty</em></h2>
+      <p class="section-desc">Dedicated scholars and educators who inspire, guide, and mentor every step of your academic journey.</p>
+    </div>
+    <div class="staff-grid">
+
+      <div class="staff-card reveal">
+        <div class="staff-img">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Dr. Anil Kumar Verma" />
+        </div>
+        <div class="staff-info">
+          <h4>Mr. Mahesh Choudhary</h4>
+          <span class="staff-role">Professor &ndash; History</span>
+          <p class="staff-qual"><i class="fas fa-graduation-cap"></i> Ph.D. (Rajasthan University) &nbsp;|&nbsp; 18 Yrs</p>
+        </div>
+      </div>
+
+      <div class="staff-card reveal">
+        <div class="staff-img">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Dr. Priya Rajput" />
+        </div>
+        <div class="staff-info">
+          <h4>Mr. Mahesh Choudhary</h4>
+          <span class="staff-role">Lecturer &ndash; Political Science</span>
+          <p class="staff-qual"><i class="fas fa-graduation-cap"></i> M.Phil., Ph.D. &nbsp;|&nbsp; 12 Yrs</p>
+        </div>
+      </div>
+
+      <div class="staff-card reveal">
+        <div class="staff-img">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Mr. Suresh Mathur" />
+        </div>
+        <div class="staff-info">
+          <h4>Mr. Mahesh Choudhary</h4>
+          <span class="staff-role">Assoc. Professor &ndash; Physics</span>
+          <p class="staff-qual"><i class="fas fa-graduation-cap"></i> M.Sc., NET &nbsp;|&nbsp; 15 Yrs</p>
+        </div>
+      </div>
+
+      <div class="staff-card reveal">
+        <div class="staff-img">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Dr. Kavita Sharma" />
+        </div>
+        <div class="staff-info">
+          <h4>Mr. Mahesh Choudhary</h4>
+          <span class="staff-role">Professor &ndash; Chemistry</span>
+          <p class="staff-qual"><i class="fas fa-graduation-cap"></i> Ph.D. (Chemistry) &nbsp;|&nbsp; 16 Yrs</p>
+        </div>
+      </div>
+
+      <div class="staff-card reveal">
+        <div class="staff-img">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Mr. Mahesh Choudhary" />
+        </div>
+        <div class="staff-info">
+          <h4>Mr. Mahesh Choudhary</h4>
+          <span class="staff-role">Lecturer &ndash; Mathematics</span>
+          <p class="staff-qual"><i class="fas fa-graduation-cap"></i> M.Sc., NET &nbsp;|&nbsp; 10 Yrs</p>
+        </div>
+      </div>
+
+      <div class="staff-card reveal">
+        <div class="staff-img">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Ms. Rekha Meena" />
+        </div>
+        <div class="staff-info">
+          <h4>Mr. Mahesh Choudhary</h4>
+          <span class="staff-role">Lecturer &ndash; English Literature</span>
+          <p class="staff-qual"><i class="fas fa-graduation-cap"></i> M.A., NET &nbsp;|&nbsp; 8 Yrs</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FACILITIES
+══════════════════════════════════════════ -->
+<section class="facilities" id="facilities">
+  <div class="facilities-bg"></div>
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Campus Life</span>
+      <h2 class="section-title">World-Class <em>Facilities</em></h2>
+      <p class="section-desc">An environment crafted for learning, innovation, and well-being — every resource you need, all in one place.</p>
+    </div>
+    <div class="facilities-grid">
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-tv"></i></div>
+        <h4>Smart Classrooms</h4>
+        <p>Digitally equipped classrooms with interactive projectors, e-boards, Wi-Fi, and multimedia systems.</p>
+      </div>
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-book"></i></div>
+        <h4>Digital Library</h4>
+        <p>Over 20,000 books, national and international journals, research databases, and e-learning portals.</p>
+      </div>
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-microscope"></i></div>
+        <h4>Science Labs</h4>
+        <p>Fully equipped physics, chemistry, and biology labs with modern instruments for practical experiments.</p>
+      </div>
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-running"></i></div>
+        <h4>Sports Complex</h4>
+        <p>Indoor and outdoor sports facilities promoting physical fitness, sportsmanship, and team spirit.</p>
+      </div>
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-wifi"></i></div>
+        <h4>Wi-Fi Campus</h4>
+        <p>High-speed internet covering all classrooms, library, and common areas — available 24×7.</p>
+      </div>
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-user-tie"></i></div>
+        <h4>Career Guidance Cell</h4>
+        <p>Expert counsellors, placement drives, resume workshops, and connections with top employers.</p>
+      </div>
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-utensils"></i></div>
+        <h4>Canteen &amp; Cafeteria</h4>
+        <p>Hygienic, affordable, and nutritious meals served in a clean and comfortable campus dining area.</p>
+      </div>
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-bus"></i></div>
+        <h4>Transport Facility</h4>
+        <p>College bus routes covering major city areas ensuring safe and timely commute for students.</p>
+      </div>
+      <div class="fac-card reveal">
+        <div class="fac-icon"><i class="fas fa-heartbeat"></i></div>
+        <h4>Medical Room</h4>
+        <p>On-campus health facility with trained staff for first-aid and basic healthcare needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     RULES & REGULATIONS
+══════════════════════════════════════════ -->
+<section class="rules-section" id="rules">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Policies &amp; Guidelines</span>
+      <h2 class="section-title">Rules &amp; <em>Regulations</em></h2>
+      <p class="section-desc">A disciplined environment is the foundation of excellence. All students are expected to uphold these standards at all times.</p>
+    </div>
+    <div class="rules-grid">
+
+      <div class="rule-card reveal">
+        <div class="rule-icon"><i class="fas fa-calendar-check"></i></div>
+        <h4>Attendance Policy</h4>
+        <ul class="rule-list">
+          <li>Minimum <strong>75% attendance</strong> is mandatory in all courses.</li>
+          <li>Students below 75% may be detained from examinations.</li>
+          <li>Medical leaves require a certified doctor's certificate.</li>
+          <li>Monthly attendance reports are communicated to parents/guardians.</li>
+        </ul>
+      </div>
+
+      <div class="rule-card reveal">
+        <div class="rule-icon"><i class="fas fa-user-shield"></i></div>
+        <h4>Discipline &amp; Conduct</h4>
+        <ul class="rule-list">
+          <li>Respectful behavior with faculty, staff, and fellow students is mandatory.</li>
+          <li>Use of mobile phones inside classrooms is strictly prohibited.</li>
+          <li>Violence, verbal abuse, or any misconduct leads to disciplinary action.</li>
+          <li>Damage to college property is a punishable offence.</li>
+        </ul>
+      </div>
+
+      <div class="rule-card reveal">
+        <div class="rule-icon"><i class="fas fa-tshirt"></i></div>
+        <h4>Dress Code</h4>
+        <ul class="rule-list">
+          <li>Students must dress modestly in accordance with Indian cultural values.</li>
+          <li>College ID cards must be visibly worn on campus at all times.</li>
+          <li>Torn, offensive, or extremely casual clothing is not permitted.</li>
+          <li>Formal attire preferred during examinations and official events.</li>
+        </ul>
+      </div>
+
+      <div class="rule-card reveal">
+        <div class="rule-icon"><i class="fas fa-file-alt"></i></div>
+        <h4>Examination Rules</h4>
+        <ul class="rule-list">
+          <li>Students must report at least 15 minutes before scheduled exam time.</li>
+          <li>Unfair means (copying) is a serious offence and may lead to expulsion.</li>
+          <li>Valid college ID card must be presented at all examinations.</li>
+          <li>Question papers and answer sheets are college property — not to be taken out.</li>
+        </ul>
+      </div>
+
+      <div class="rule-card reveal">
+        <div class="rule-icon"><i class="fas fa-ban"></i></div>
+        <h4>Anti-Ragging Policy</h4>
+        <ul class="rule-list">
+          <li>Ragging in any form — physical, verbal, or digital — is <strong>strictly prohibited</strong>.</li>
+          <li>Offenders face immediate suspension and legal action as per UGC norms.</li>
+          <li>An active Anti-Ragging Committee is accessible to all students.</li>
+          <li>Incidents can be reported confidentially to the committee or helpline.</li>
+        </ul>
+      </div>
+
+      <div class="rule-card reveal">
+        <div class="rule-icon"><i class="fas fa-leaf"></i></div>
+        <h4>Campus Etiquette</h4>
+        <ul class="rule-list">
+          <li>Keep the campus clean; always use designated dustbins.</li>
+          <li>Smoking, alcohol, and narcotics are strictly banned on campus.</li>
+          <li>Silence must be maintained in library and examination zones.</li>
+          <li>Vehicles must be parked only in designated parking areas.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     GALLERY
+══════════════════════════════════════════ -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Our Campus</span>
+      <h2 class="section-title">Life at <em>Darshan</em></h2>
+      <p class="section-desc">A glimpse into the vibrant, inspiring world inside our campus walls.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="g-item g-large">
+        <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&q=80" alt="Campus" />
+        <div class="g-overlay"><span>Main Campus</span></div>
+      </div>
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=500&q=80" alt="Students" />
+        <div class="g-overlay"><span>Student Life</span></div>
+      </div>
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500&q=80" alt="Library" />
+        <div class="g-overlay"><span>Library</span></div>
+      </div>
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=500&q=80" alt="Classroom" />
+        <div class="g-overlay"><span>Smart Classrooms</span></div>
+      </div>
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&q=80" alt="Sports" />
+        <div class="g-overlay"><span>Sports</span></div>
+      </div>
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&q=80" alt="Lab" />
+        <div class="g-overlay"><span>Science Lab</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     STUDENT REVIEWS / TESTIMONIALS
+══════════════════════════════════════════ -->
+<section class="reviews-section" id="reviews">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Testimonials</span>
+      <h2 class="section-title">What Our <em>Students Say</em></h2>
+      <p class="section-desc">Hear from the voices that matter most — our students and alumni who've lived the Darshan experience.</p>
+    </div>
+    <div class="reviews-grid">
+
+      <div class="review-card reveal">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"Darshan Mahavidhyalay gave me far more than a degree — it gave me direction, confidence, and lifelong friendships. The faculty here is genuinely invested in your growth."</p>
+        <div class="reviewer-info">
+          <div class="reviewer-avatar"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80" alt="Priya Sharma" /></div>
+          <div><strong>Vikram Singh</strong><span>BA Final Year, 2024</span></div>
+        </div>
+      </div>
+
+      <div class="review-card reveal">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"The science labs here are excellent. My BSc experience was phenomenal — from research projects to industry visits, every semester brought something enriching and new."</p>
+        <div class="reviewer-info">
+          <div class="reviewer-avatar"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80" alt="Rahul Mehta" /></div>
+          <div><strong>Vikram Singh</strong><span>BSc 2nd Year, 2024</span></div>
+        </div>
+      </div>
+
+      <div class="review-card reveal">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"The Career Guidance Cell helped me land my first internship within 3 months. The college truly invests in what happens to you after graduation — that kind of care is priceless."</p>
+        <div class="reviewer-info">
+          <div class="reviewer-avatar"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80" alt="Anjali Rajput" /></div>
+          <div><strong>Vikram Singh</strong><span>BA Alumni, 2023</span></div>
+        </div>
+      </div>
+
+      <div class="review-card reveal">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"Professor Verma's History classes completely transformed how I see the world. The depth of teaching here is truly unmatched. I'm proud to be a Darshan alumna."</p>
+        <div class="reviewer-info">
+          <div class="reviewer-avatar"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80" alt="Meera Nair" /></div>
+          <div><strong>Vikram Singh </strong><span>BA Alumni, 2022</span></div>
+        </div>
+      </div>
+
+      <div class="review-card reveal">
+        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="review-text">"The campus atmosphere is full of positivity and ambition. NSS, sports, and cultural events kept life exciting while academics stayed the top priority. 10/10 experience."</p>
+        <div class="reviewer-info">
+          <div class="reviewer-avatar"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80" alt="Vikram Singh" /></div>
+          <div><strong>Vikram Singh</strong><span>BSc Alumni, 2023</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     ADMISSIONS
+══════════════════════════════════════════ -->
+<section class="admissions" id="admissions">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Join Us</span>
+      <h2 class="section-title">Simple <em>Admission</em> Process</h2>
+      <p class="section-desc">Your journey to excellence begins with three easy steps. Admissions are open for the 2026&ndash;27 academic year.</p>
+    </div>
+    <div class="admission-steps reveal">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-connector"></div>
+        <div class="step-body">
+          <i class="fas fa-file-alt"></i>
+          <h4>Fill Application Form</h4>
+          <p>Complete the online or offline application form with your personal and academic details accurately.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-connector"></div>
+        <div class="step-body">
+          <i class="fas fa-folder-open"></i>
+          <h4>Submit Documents</h4>
+          <p>Upload or submit required documents including 10th &amp; 12th mark sheets, TC, Aadhar, and passport photos.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-connector last"></div>
+        <div class="step-body">
+          <i class="fas fa-trophy"></i>
+          <h4>Merit-Based Selection</h4>
+          <p>Admissions are offered based on academic merit. Results communicated within 7 working days.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Documents Required -->
+    <div class="docs-required reveal">
+      <h4><i class="fas fa-paperclip"></i> Documents Required</h4>
+      <div class="docs-grid">
+        <div class="doc-item"><i class="fas fa-check"></i> 10th Mark Sheet</div>
+        <div class="doc-item"><i class="fas fa-check"></i> 12th Mark Sheet</div>
+        <div class="doc-item"><i class="fas fa-check"></i> Transfer Certificate (TC)</div>
+        <div class="doc-item"><i class="fas fa-check"></i> Character Certificate</div>
+        <div class="doc-item"><i class="fas fa-check"></i> Aadhar Card Copy</div>
+        <div class="doc-item"><i class="fas fa-check"></i> 4 Passport-Size Photos</div>
+        <div class="doc-item"><i class="fas fa-check"></i> Caste Certificate (if applicable)</div>
+        <div class="doc-item"><i class="fas fa-check"></i> Migration Certificate</div>
+      </div>
+    </div>
+
+    <div class="admission-cta reveal">
+      <a href="#contact" class="btn-primary">Apply Now <i class="fas fa-arrow-right"></i></a>
+      <p class="admission-note"><i class="fas fa-clock"></i> Admissions open for 2026&ndash;27 academic year &nbsp;&middot;&nbsp; Limited seats available</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════ -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info reveal">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">We're Here <em>For You</em></h2>
+      <div class="contact-details">
+        <div class="c-item">
+          <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <strong>Address</strong>
+            <p>Mahabar Fatak,Govt school No.4<br />Chohtan Road, Barmer, Rajasthan &ndash; 334001</p>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon"><i class="fas fa-phone-alt"></i></div>
+          <div>
+            <strong>Phone</strong>
+            <p>+91 94141 00000<br />+91 98290 00000</p>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <strong>Email</strong>
+            <p>admissions@darshanmahavid.ac.in<br />info@darshanmahavid.ac.in</p>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <strong>Office Hours</strong>
+            <p>Monday &ndash; Saturday: 9:00 AM &ndash; 5:00 PM<br />Sundays &amp; Holidays: Closed</p>
+          </div>
+        </div>
+      </div>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap reveal">
+      <h3>Send Us a Message</h3>
+      <form class="contact-form" id="contactForm" action="contact.php" method="POST">
+        <!-- Honeypot anti-spam -->
+        <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+          <div class="form-group">
+            <label for="course">Interested Course</label>
+            <select id="course" name="course">
+              <option value="">Select a course</option>
+              <option value="BA">Bachelor of Arts (BA)</option>
+              <option value="BSc">Bachelor of Science (BSc)</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label for="message">Your Message *</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your enquiry here..." required></textarea>
+        </div>
+        <div id="formStatus"></div>
+        <button type="submit" class="btn-primary submit-btn">
+          Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- Map -->
+  <div class="map-wrap reveal">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57504.45812033683!2d71.34972897293085!3d25.73656669894217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39443a9827f48827%3A0xb7b403904e65d905!2z4KSm4KSw4KWN4KS24KSoIOCkruCkueCkvuCkteCkv-CkpuCljeCkr-CkvuCksuCkrw!5e0!3m2!1shi!2sin!4v1777532973229!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="College Location">
+    </iframe>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <div class="logo-emblem">
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="25" cy="25" r="23" stroke="#C9A84C" stroke-width="1.5"/>
+              <path d="M25 8L28 18H38L30 24L33 34L25 28L17 34L20 24L12 18H22L25 8Z" fill="#C9A84C" opacity="0.85"/>
+              <circle cx="25" cy="25" r="4" fill="#C9A84C"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-main" style="color:#fff">Darshan</span>
+            <span class="logo-sub">Mahavidhyalay</span>
+          </div>
+        </div>
+        <p>Shaping future leaders through academic excellence, innovation, and timeless values since 1995. NAAC Accredited &middot; UGC Recognised.</p>
+        <div class="footer-badges">
+          <span><i class="fas fa-award"></i> NAAC</span>
+          <span><i class="fas fa-university"></i> UGC</span>
+          <span><i class="fas fa-shield-alt"></i> Affiliated</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#staff">Our Faculty</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#rules">Rules &amp; Regulations</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Programs</h5>
+        <ul>
+          <li><a href="#courses">Bachelor of Arts (BA)</a></li>
+          <li><a href="#courses">Bachelor of Science (BSc)</a></li>
+          <li><a href="#admissions">Admission Process</a></li>
+          <li><a href="#contact">Contact Admissions</a></li>
+        </ul>
+        <h5 style="margin-top:24px">Contact</h5>
+        <ul>
+          <li><a href="tel:+919414100000">+91 94141 00000</a></li>
+          <li><a href="mailto:admissions@darshanmahavid.ac.in">admissions@darshanmahavid.ac.in</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Follow Us</h5>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+          <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        <h5 style="margin-top:24px">Office Hours</h5>
+        <p style="font-size:0.82rem;color:rgba(255,255,255,0.45);line-height:1.8">
+          Mon&ndash;Sat: 9:00 AM &ndash; 5:00 PM<br />
+          Sundays &amp; Holidays: Closed
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; 2025 Darshan Mahavidhyalay. All Rights Reserved. | Barmer, Rajasthan, India</p>
+      <p>Designed with <i class="fas fa-heart" style="color:#C9A84C"></i> for Excellence</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-top" id="backTop" aria-label="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
